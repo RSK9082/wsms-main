@@ -72,7 +72,7 @@ if (isset($_POST['login'])) {
 
 
 		<div class="inner-div">
-<!-- testing -->
+<!-- testing the page  -->
 			<div class="home_button">
 				<button onclick="redirectToHomePage()" class="home_but">Home</button>
 			</div>

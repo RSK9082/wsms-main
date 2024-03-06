@@ -23,6 +23,7 @@ if (isset($_POST['submit'])) {
 }
 
 ?>
+<!-- testing the page  -->
 
 <!DOCTYPE html>
 <html lang="en">
