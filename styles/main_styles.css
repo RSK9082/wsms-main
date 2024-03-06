@@ -84,6 +84,35 @@
   border-radius: 5%;
 }
 
+.home_button {
+  position: relative;
+  bottom: 80px;
+  right: 230px;
+}
+
+@keyframes buttonAnimation {
+  from {
+    background-color: #3498db;
+  }
+  to {
+    background-color: #2980b9;
+  }
+}
+
+.home_but {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px; /* Adjust the padding to your preference */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; /* Adjust the font size to your preference */
+  transition: background-color 0.3s ease;
+}
+.home_but:hover {
+  animation: buttonAnimation 0.5s forwards;
+}
+
 .inner-div {
   position: absolute;
   top: 50%;

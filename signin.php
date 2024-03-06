@@ -53,6 +53,10 @@ if (isset($_POST['login'])) {
 			unset($_SESSION['login_success']); // Reset the session variable
 		}
 		?>
+
+		function redirectToHomePage() {
+			window.location.href = 'index.php'; // Update with the correct home page URL
+		}
 	</script>
 </head>
 
@@ -62,7 +66,16 @@ if (isset($_POST['login'])) {
 
 	<!-- Home -->
 	<div class="outer-div_signin">
+		<!-- Your webpage content goes here -->
+
+		<!-- Button to go to the home page using JavaScript -->
+
+
 		<div class="inner-div">
+
+			<div class="home_button">
+				<button onclick="redirectToHomePage()" class="home_but">Home</button>
+			</div>
 
 			<!-- Contact -->
 			<!-- <div>
@@ -76,7 +89,7 @@ if (isset($_POST['login'])) {
 					<div class="row">
 						<div class="col">
 							<div class="section_title_container text-center">
-								<div class="section_subtitle">Water Boat test</div>
+								<div class="section_subtitle">Water Boat</div>
 								<div class="section_title">
 									<h1 style="margin-top:4%">Sign In</h1>
 								</div>

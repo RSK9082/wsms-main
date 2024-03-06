@@ -56,9 +56,8 @@ if (isset($_POST['submit'])) {
 
 		<div class="outer-div">
 			<div class="inner-div">
-				<div class="contact" style="
-	margin-bottom: 100px;
-	margin-top: 156px" ;>
+
+				<div class="contact" style="margin-bottom: 100px; margin-top: 156px" ;>
 					<div class="container-register">
 						<div class="row">
 							<div class="col">
